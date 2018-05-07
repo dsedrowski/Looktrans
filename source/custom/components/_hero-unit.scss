@@ -1,0 +1,31 @@
+.lt-hero {
+    position: relative;
+    background: url('../images/hero.jpg') 50% 50% no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+
+    &:after {
+        @include lt-bg-overlay($lt-black, .4);
+    }
+}
+
+.lt-hero-content {
+    @include lt-relative-zindex();
+}
+
+.lt-hero-header {
+    filter: drop-shadow(0 2px rgba($lt-gray-900, 1));
+}
+
+.lt-hero-subheader {
+    margin-top: 0;
+    letter-spacing: 0.3rem;
+    text-shadow: 0 2px 0 rgba($lt-gray-900, 1);
+    font-family: $lt-font-family-company;
+    font-size: 0.7rem;
+
+    @include media-breakpoint-up(md){
+        font-size: 1rem;
+    }
+
+}

@@ -1,0 +1,41 @@
+h2 {
+    font-weight: normal;
+}
+
+h3 { 
+    letter-spacing: .1rem;
+    font-weight: normal;
+}
+
+h4 {
+    font-weight: normal;
+}
+
+h5 {
+    letter-spacing: .05rem;
+    font-weight: normal;
+}
+
+.lt-text-small {
+    font-size: .75rem;
+}
+
+.lt-text-large {
+    font-size: 1.125rem !important;
+}
+
+.lt-highlight-text {
+    background-color: $lt-accent-color;
+    color: $lt-gray-200;
+    padding: 0 8px;
+}
+
+.lg-page-small-p {
+    line-height: 1.3;
+}
+
+.lt-newest {
+    font-weight: 800;
+    color: #e74c3c;
+    text-decoration: underline;
+}

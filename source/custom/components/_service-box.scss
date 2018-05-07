@@ -1,0 +1,51 @@
+.lt-service-box {
+    margin-bottom: 40px;
+}
+
+.lt-services-box-top {
+    margin-bottom: 1.4rem;
+
+    &:hover {
+        .lt-services-box-shadow {
+            background-color: rgba($lt-black, .5);
+        }
+    }
+}
+
+.lt-services-box-img {
+    margin: 10px 20px 0 10px;
+    @include lt-relative-zindex();
+}
+
+.lt-services-box-title {
+    margin-top: 1.75rem;
+}
+
+.lt-services-box-header {
+    font-size: 1.125rem;
+    line-height: 1.2;
+
+    @include lt-font-light-secondary();
+}
+
+.lt-services-box-header-more {
+    margin-top: 15px;
+    font-size: 12px;
+    
+    a {
+        color: lighten($lt-accent-color, 30%)
+    }    
+}
+
+.lt-services-box-text {
+    line-height: 2;
+}
+
+.lt-services-box-shadow {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    background-color: rgba($lt-black, .3);
+
+    @include lt-size(120px, 120px);
+}

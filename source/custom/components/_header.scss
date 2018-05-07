@@ -1,0 +1,37 @@
+.lt-header-item-link {
+    font-size: 0.7rem;
+    font-family: $lt-font-family-company;
+    color: $gray-200;
+    letter-spacing: 0.1rem;
+
+    &:hover {
+        color: darken($gray-200, 20%);
+    }
+
+    @include media-breakpoint-up(lg) {
+        font-size: 0.725rem;
+        padding: 1.65rem 0.75rem;
+    }
+
+    @include media-breakpoint-up(xl) {
+        font-size: 0.825rem;
+        padding: 1.65rem 0.75rem;
+    }
+}
+
+.lt-header-item-active {
+    background-color: $gray-200;
+
+    .lt-header-item-link {
+        color: darken($gray-200, 70%);
+    }
+}
+
+.lt-header-logo {
+    text-align: center;
+    padding: 5px 0;
+
+    @include media-breakpoint-up(lg) {
+        text-align: initial;
+    }
+}

@@ -1,0 +1,13 @@
+.lt-rent-page-cars-image {
+    filter: drop-shadow(5px -5px rgba($lt-gray-900, 1));
+}
+
+.lt-rent-page-cars-data {
+    line-height: 1.5;
+    padding-left: 15px;
+    list-style-type: circle;
+
+    li {
+        font-size: 12px;
+    }
+}

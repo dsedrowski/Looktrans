@@ -1,0 +1,57 @@
+
+$lt-gray-100: #F5F5F5;
+$lt-gray-200: #EEEEEE;
+$lt-gray-600: #757575;
+$lt-gray-800: #424242;
+$lt-gray-900: #212121;
+
+$lt-accent-color: $lt-gray-900;
+
+$lt-white: #FFFFFF;
+$lt-black: #000000;
+
+$lt-input-bg: $lt-gray-200;
+$lt-input-border-color: darken($lt-input-bg, 5%);
+$lt-contact-form-shadow: #292C31;
+
+$lt-font-family-body: 'Roboto';
+$lt-font-family-secondary: 'Oswald';
+$lt-font-family-company: 'Alegreya Sans SC';
+$lt-font-family-menu: 'Anton';
+
+$theme-colors: (
+    "primary": $lt-accent-color
+);
+
+$gray-100: $lt-gray-100;
+$gray-200: $lt-gray-200;
+$gray-600: $lt-gray-600;
+$gray-800: $lt-gray-800;
+$gray-900: $lt-gray-900;
+
+$border-radius: 0;
+$border-radius-lg: 0;
+$border-radius-sm: 0;
+
+$font-family-sans-serif: $lt-font-family-body;
+$headings-font-family: $lt-font-family-secondary;
+$headings-font-weight: 700;
+$font-size-base: .875rem;
+$line-height-base: 1.75;
+$font-size-sm: ($font-size-base * .75);
+$h2-font-size: 2.143rem;
+$h3-font-size: 1.375rem;
+$h4-font-size: 1rem;
+$h5-font-size: .875rem;
+
+$jumbotron-padding: 7rem;
+
+$input-group-addon-bg: $gray-800;
+$input-group-addon-border-color: none;
+$input-border-color: $lt-input-border-color;
+
+$pagination-color: $gray-900;
+$pagination-bg: none;
+$pagination-border-width: 0;
+$paginaction-hover-color: $lt-accent-color;
+$pagination-hover-bg: none;

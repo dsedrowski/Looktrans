@@ -1,0 +1,72 @@
+.lt-post-box {
+    position: relative;
+}
+
+.lt-post-box-date {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    @include lt-size(75px, 75px);
+    @include media-breakpoint-up(md) {
+        @include lt-size(95px, 95px);
+    }
+}
+
+.lt-post-box-date-body {
+    max-width: 90%;
+
+    @include media-breakpoint-up(md) {
+        min-width: 45%;
+    }
+}
+
+.lt-post-box-date-value {
+    margin-top: 0.3rem;
+    font-size: 0.625rem;
+
+    @include lt-font-light-secondary();
+}
+
+.lt-post-box-body {
+    position: relative;
+    padding: 10px 0 0 10px;
+}
+
+.lt-post-box-content {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    bottom: 0;
+    left: 10px;
+    padding: 20px 30px;
+
+    &:after{
+        @include lt-bg-overlay($lt-black, .6);
+    }
+
+    @include media-breakpoint-up(md) {
+        top: 45%;
+    }
+}
+
+.lt-post-box-content-inner {
+    @include lt-relative-zindex();
+}
+
+.lt-post-box-title {
+    font-size: 1.375rem;
+    margin-bottom: 0.85rem;
+}
+
+.lt-post-box-text {
+    margin-bottom: 0.3rem;
+    line-height: 1.66;
+}
+
+.lt-post-box-link {
+    font-size: 0.625rem;
+
+    @include lt-font-light-secondary();
+}
