@@ -70,3 +70,114 @@
 
     @include lt-font-light-secondary();
 }
+
+.lt-post-item {
+    padding-bottom: 40px;
+}
+
+.lt-post-item-link {
+    margin: 1rem 0;
+    color: $lt-gray-900;
+
+}
+
+.lt-post-item-title {
+    font-size: 1.5751rem;
+}
+
+.lt-post-item-more {
+   margin-bottom: 40px;
+}
+
+.lt-post-widget {
+    margin-bottom: 30px;
+    padding: 1rem 2rem;
+    background-color: $gray-200;
+}
+
+.lt-post-widget-header {
+    margin-top: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.lt-post-widget-list-item {
+    padding-left: 1.25rem;
+    padding-right: 2.5rem;
+}
+
+.lt-post-widget-link {
+    color: $gray-900;
+    font-size: 0.875rem;
+    @include lt-font-light-secondary();
+}
+
+// Widget Szukaj
+
+.lt-post-widget-search {
+    padding: 0 0.75rem;
+}
+
+.lt-post-widget-search-input {
+    font-family: $lt-font-family-secondary;
+    font-weight: 400;
+    font-size: 0.875rem;
+    letter-spacing: 0.2rem;
+    &::-webkit-input-placeholder {
+        color: $gray-200;
+    }
+    &::moz-input-placeholder {
+        color: $gray-200;
+    }
+    &::ms-input-placeholder {
+        color: $gray-200;
+    }
+    &:moz-input-placeholder {
+        color: $gray-200;
+    }
+}
+
+
+// Widget archiwum 
+
+.lt-post-widget-archive {
+    padding: 1rem 0 0;
+}
+
+.lt-post-widget-archive-list {
+    margin-bottom: 0.5rem;
+}
+
+.lt-post-archive-header {
+    margin-bottom: 0.75rem;
+}
+
+
+// Widget poplarne wpisy
+
+.lt-post-widget-popular-item {
+    margin: 1.2rem 0;
+}
+
+.lt-post-widget-popular-img {
+    margin-right: 2.5rem;
+    max-width: 65px;
+}
+
+// Widget kategorie wpisow
+
+.lt-post-widget-categories {
+    padding: 2rem 0 .8rem;
+}
+
+.lt-post-widget-categories-item {
+    margin-bottom: 0.175rem;
+    margin-right: 0.15rem;
+    padding: 0.4rem 1rem;
+    line-height: 1;
+    background-color: $lt-black;
+}
+
+.lt-pagination {
+    letter-spacing: 0.05rem;
+    @include lt-font-light-secondary();
+}
